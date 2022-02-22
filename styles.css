@@ -1,3 +1,29 @@
 body {
-  background: orange;
+  text-align: center;
+}
+.card {
+  border: 1px solid grey;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+.more {
+  border: 2px solid crimson;
+  margin: 10px;
+}
+.type {
+  color: gray;
+}
+.sidebar {
+  border: 1px solid red;
+  width: 160px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+.main {
+  margin-left: 160px;
 }
