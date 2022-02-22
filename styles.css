@@ -6,11 +6,13 @@ body {
   display: inline-block;
   padding: 10px;
   margin: 10px;
-  position: relative;
+  width: 300px;
+  height: 400px;
 }
 .more {
   border: 2px solid crimson;
   margin: 10px;
+  bottom: auto;
 }
 .type {
   color: gray;
@@ -37,4 +39,8 @@ body {
   left: 160px;
   padding: 10px;
   margin-left: 20px;
+}
+h4{
+  color: gray;
+  margin-bottom: 0%;
 }
